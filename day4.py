@@ -10,16 +10,16 @@
 
 
 # coding task:
-# import random
-#
-# a = random.randint(1,9)
-# guess = int(input("Guess any number in between (1 to 9): "))
-#
-# if guess == a:
-#     print("Congratulations you predicted correct value.")
-# else:
-#     print("Sorry wrong guess, better luck next time.")
-#     print("The correct number is: ",a)
+import random
+
+a = random.randint(1,9)
+guess = int(input("Guess any number in between (1 to 9): "))
+
+if guess == a:
+    print("Congratulations you predicted correct value.")
+else:
+    print("Sorry wrong guess, better luck next time.")
+    print("The correct number is: ",a)
 
 
 # Assignment:
